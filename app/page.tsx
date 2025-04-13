@@ -2,6 +2,8 @@ import Link from "next/link"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
+import profile from "../../JackSonguPortfolio/public/propic.jpg"
+import profiles from "../../JackSonguPortfolio/public/profile2.jpg"
 import { Badge } from "@/components/ui/badge"
 import {
   Github,
@@ -103,19 +105,19 @@ export default function Portfolio() {
                   </Button>
                 </div>
                 <div className="flex gap-4 mt-6">
-                  <Link href="#" className="text-gray-400 hover:text-purple-400">
+                  <Link href="https://github.com/aondofe014704" className="text-gray-400 hover:text-purple-400">
                     <Github className="h-5 w-5" />
                     <span className="sr-only">GitHub</span>
                   </Link>
-                  <Link href="#" className="text-gray-400 hover:text-purple-400">
+                  <Link href="https://www.linkedin.com/in/songu-jacob-340a971b8/" className="text-gray-400 hover:text-purple-400">
                     <Linkedin className="h-5 w-5" />
                     <span className="sr-only">LinkedIn</span>
                   </Link>
-                  <Link href="#" className="text-gray-400 hover:text-purple-400">
+                  <Link href="https://x.com/jack_songu" className="text-gray-400 hover:text-purple-400">
                     <Twitter className="h-5 w-5" />
                     <span className="sr-only">Twitter</span>
                   </Link>
-                  <Link href="#" className="text-gray-400 hover:text-purple-400">
+                  <Link href="https://mail.google.com/mail/u/0/#inbox?compose=new" className="text-gray-400 hover:text-purple-400">
                     <Mail className="h-5 w-5" />
                     <span className="sr-only">Email</span>
                   </Link>
@@ -139,7 +141,7 @@ export default function Portfolio() {
                   <div className="relative w-[280px] h-[280px] sm:w-[350px] sm:h-[350px] rounded-full overflow-hidden border-4 border-gray-800 shadow-[0_0_15px_rgba(124,58,237,0.5)] z-10">
                     <div className="absolute inset-0 bg-gradient-to-br from-purple-500/10 to-green-500/10 z-20"></div>
                     <Image
-                      src="/placeholder.svg?height=350&width=350"
+                      src={profile}
                       alt="Profile"
                       fill
                       className="object-cover"
@@ -163,7 +165,7 @@ export default function Portfolio() {
               <AnimatedSection animation="fade-right" className="flex justify-center">
                 <div className="relative w-full max-w-md aspect-square rounded-lg overflow-hidden shadow-[0_0_25px_rgba(124,58,237,0.3)]">
                   <div className="absolute inset-0 bg-gradient-to-br from-purple-500/10 to-green-500/10 z-10"></div>
-                  <Image src="/placeholder.svg?height=400&width=400" alt="About me" fill className="object-cover" />
+                  <Image src={profile} alt="About me" fill className="object-cover" />
                 </div>
               </AnimatedSection>
               <AnimatedSection animation="fade-left" className="space-y-4">
