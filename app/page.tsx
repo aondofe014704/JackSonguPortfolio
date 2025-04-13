@@ -2,8 +2,7 @@ import Link from "next/link"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
-import profile from "../../JackSonguPortfolio/public/propic.jpg"
-import profiles from "../../JackSonguPortfolio/public/profile2.jpg"
+import profile from "../../JackSonguPortfolio/public/propic.jpg";
 import { Badge } from "@/components/ui/badge"
 import {
   Github,
