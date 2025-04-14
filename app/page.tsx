@@ -2,7 +2,7 @@ import Link from "next/link"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
-import profile from "../../JackSonguPortfolio/public/propic.jpg";
+// import profile from "../../JackSonguPortfolio/public/propic.jpg";
 import { Badge } from "@/components/ui/badge"
 import {
   Github,
@@ -32,7 +32,6 @@ export default function Portfolio() {
             <Code className="h-5 w-5 text-purple-500" />
             <span className="font-extrabold text-xl bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-green-400 relative">
               JackSongu
-              {/* jjjjj */}
               <span className="absolute top-0 left-1/4 h-1 w-1 bg-white rounded-full animate-pulse"></span>
               <span
                 className="absolute top-1 right-1/4 h-1.5 w-1.5 bg-white rounded-full animate-pulse"
@@ -141,7 +140,7 @@ export default function Portfolio() {
                   <div className="relative w-[280px] h-[280px] sm:w-[350px] sm:h-[350px] rounded-full overflow-hidden border-4 border-gray-800 shadow-[0_0_15px_rgba(124,58,237,0.5)] z-10">
                     <div className="absolute inset-0 bg-gradient-to-br from-purple-500/10 to-green-500/10 z-20"></div>
                     <Image
-                      src={profile}
+                      src="https://res.cloudinary.com/dejlekubm/image/upload/v1744655846/propic_tubkqd.jpg"
                       alt="Profile"
                       fill
                       className="object-cover"
@@ -165,7 +164,7 @@ export default function Portfolio() {
               <AnimatedSection animation="fade-right" className="flex justify-center">
                 <div className="relative w-full max-w-md aspect-square rounded-lg overflow-hidden shadow-[0_0_25px_rgba(124,58,237,0.3)]">
                   <div className="absolute inset-0 bg-gradient-to-br from-purple-500/10 to-green-500/10 z-10"></div>
-                  <Image src={profile} alt="About me" fill className="object-cover" />
+                  <Image src="https://res.cloudinary.com/dejlekubm/image/upload/v1744655846/propic_tubkqd.jpg" alt="About me" fill className="object-cover" />
                 </div>
               </AnimatedSection>
               <AnimatedSection animation="fade-left" className="space-y-4">
