@@ -32,6 +32,7 @@ export default function Portfolio() {
             <Code className="h-5 w-5 text-purple-500" />
             <span className="font-extrabold text-xl bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-green-400 relative">
               JackSongu
+              {/* jjjjj */}
               <span className="absolute top-0 left-1/4 h-1 w-1 bg-white rounded-full animate-pulse"></span>
               <span
                 className="absolute top-1 right-1/4 h-1.5 w-1.5 bg-white rounded-full animate-pulse"
