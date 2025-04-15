@@ -169,18 +169,27 @@ export default function Portfolio() {
               </AnimatedSection>
               <AnimatedSection animation="fade-left" className="space-y-4">
                 <p className="text-gray-300 md:text-lg">
-                  I'm a passionate software engineer with over 5 years of experience building web applications and
-                  digital products. I specialize in frontend development with React and Next.js, but I'm also proficient
-                  in backend technologies.
+                I'm a passionate software engineer with 5+ years of experience building high-impact web applications and digital products. 
+                While I specialize in crafting sleek, responsive frontends with React, Flutter and Next.js, 
+                I’m equally comfortable architecting scalable backends and automating infrastructure. 
+                From pixel-perfect UIs to robust APIs and smooth CI/CD pipelines, 
+                I bring a full-stack mindset and a DevOps edge to every project.
                 </p>
                 <p className="text-gray-300 md:text-lg">
-                  My journey in software development began during college where I discovered my love for creating
-                  intuitive user interfaces. Since then, I've worked with startups and established companies to deliver
-                  high-quality software solutions.
+                My journey into software development began in Semicolon Africa, 
+                where I became hooked on creating intuitive, user-friendly interfaces. 
+                That early passion grew into a career focused on building scalable, 
+                high-performance applications across the stacks. 
+                I’ve worked with startups and established companies to deliver robust, 
+                accessible digital experiences — using React and Next.js on the frontend, 
+                with Java and Spring Boot driving the backend. For media-heavy applications, 
+                I’ve integrated Cloudinary as an end-to-end solution for managing images and video uploads, 
+                transformations, optimizations, and seamless delivery. I’m all about clean code, smart architecture, 
+                and crafting solutions that scale beautifully in the cloud.
                 </p>
                 <p className="text-gray-300 md:text-lg">
-                  When I'm not coding, you can find me hiking, reading tech blogs, or experimenting with new
-                  technologies. I'm always eager to learn and grow as a developer.
+                  When I'm not coding, you can find me watching football, reading tech blogs, reading programming books
+                  or experimenting with new technologies. I'm always eager to learn and grow as a developer.
                 </p>
                 <div className="pt-4">
                   <Button className="bg-gradient-to-r from-purple-600 to-green-500 hover:from-purple-700/80 hover:to-green-600/80 hover:opacity-90 transition-all duration-300 text-white">
@@ -235,14 +244,15 @@ export default function Portfolio() {
                       <h3 className="text-xl font-bold text-white">Backend</h3>
                     </div>
                     <div className="flex flex-wrap gap-2">
-                      <Badge className="bg-green-900/50 text-green-300 hover:bg-green-800">Node.js</Badge>
-                      <Badge className="bg-green-900/50 text-green-300 hover:bg-green-800">Express</Badge>
+                      <Badge className="bg-green-900/50 text-green-300 hover:bg-green-800">Java</Badge>
+                      <Badge className="bg-green-900/50 text-green-300 hover:bg-green-800">Spring Boot</Badge>
                       <Badge className="bg-green-900/50 text-green-300 hover:bg-green-800">Python</Badge>
                       <Badge className="bg-green-900/50 text-green-300 hover:bg-green-800">Django</Badge>
-                      <Badge className="bg-green-900/50 text-green-300 hover:bg-green-800">GraphQL</Badge>
+                      <Badge className="bg-green-900/50 text-green-300 hover:bg-green-800">Express</Badge>
                       <Badge className="bg-green-900/50 text-green-300 hover:bg-green-800">REST APIs</Badge>
                       <Badge className="bg-green-900/50 text-green-300 hover:bg-green-800">Spring Boot</Badge>
-                      <Badge className="bg-green-900/50 text-green-300 hover:bg-green-800">Java</Badge>
+                      <Badge className="bg-green-900/50 text-green-300 hover:bg-green-800">Node.js</Badge>
+                      <Badge className="bg-green-900/50 text-green-300 hover:bg-green-800">PostMan</Badge>
                     </div>
                   </CardContent>
                 </Card>
@@ -298,9 +308,7 @@ export default function Portfolio() {
                       <Badge className="bg-purple-900/50 text-purple-300 hover:bg-purple-800">AWS</Badge>
                       <Badge className="bg-purple-900/50 text-purple-300 hover:bg-purple-800">Vercel</Badge>
                       <Badge className="bg-purple-900/50 text-purple-300 hover:bg-purple-800">CI/CD</Badge>
-                      <Badge className="bg-purple-900/50 text-purple-300 hover:bg-purple-800">Jest</Badge>
-                      <Badge className="bg-purple-900/50 text-purple-300 hover:bg-purple-800">Cypress</Badge>
-                    </div>
+                      <Badge className="bg-purple-900/50 text-purple-300 hover:bg-purple-800">Jest</Badge>                    </div>
                   </CardContent>
                 </Card>
               </AnimatedSection>
