@@ -688,7 +688,7 @@ export default function Portfolio() {
                         </div>
                         <div>
                           <h3 className="text-lg font-bold text-white">Email</h3>
-                          <p className="text-gray-300">alex.chen@example.com</p>
+                          <p className="text-gray-300">songujack@gmail.com</p>
                         </div>
                       </div>
                     </CardContent>
@@ -703,7 +703,7 @@ export default function Portfolio() {
                         </div>
                         <div>
                           <h3 className="text-lg font-bold text-white">LinkedIn</h3>
-                          <p className="text-gray-300">linkedin.com/in/alexchen</p>
+                          <p className="text-gray-300">linkedin.com/in/jacksongu</p>
                         </div>
                       </div>
                     </CardContent>
@@ -714,11 +714,11 @@ export default function Portfolio() {
                     <CardContent className="p-6">
                       <div className="flex items-center gap-4">
                         <div className="p-2 rounded-full bg-purple-900/50">
-                          <Github className="h-6 w-6 text-purple-400" />
+                          <Github className="h-6 w-6 text-purple-400"/>
                         </div>
                         <div>
                           <h3 className="text-lg font-bold text-white">GitHub</h3>
-                          <p className="text-gray-300">github.com/alexchen</p>
+                          <p className="text-gray-300">github.com/aondofe014704</p>
                         </div>
                       </div>
                     </CardContent>
@@ -755,19 +755,19 @@ export default function Portfolio() {
                   Building exceptional digital experiences with modern technologies.
                 </p>
                 <div className="flex gap-4">
-                  <Link href="#" className="text-gray-400 hover:text-purple-400">
+                  <Link href="https://github.com/aondofe014704" className="text-gray-400 hover:text-purple-400">
                     <Github className="h-5 w-5" />
                     <span className="sr-only">GitHub</span>
                   </Link>
-                  <Link href="#" className="text-gray-400 hover:text-purple-400">
+                  <Link href="https://www.linkedin.com/in/songu-jacob-340a971b8/" className="text-gray-400 hover:text-purple-400">
                     <Linkedin className="h-5 w-5" />
                     <span className="sr-only">LinkedIn</span>
                   </Link>
-                  <Link href="#" className="text-gray-400 hover:text-purple-400">
+                  <Link href="https://x.com/jack_songu" className="text-gray-400 hover:text-purple-400">
                     <Twitter className="h-5 w-5" />
                     <span className="sr-only">Twitter</span>
                   </Link>
-                  <Link href="#" className="text-gray-400 hover:text-purple-400">
+                  <Link href="https://mail.google.com/mail/u/0/#inbox?compose=new" className="text-gray-400 hover:text-purple-400">
                     <Mail className="h-5 w-5" />
                     <span className="sr-only">Email</span>
                   </Link>
@@ -853,7 +853,7 @@ export default function Portfolio() {
             </AnimatedSection>
           </div>
           <div className="mt-8 pt-6 border-t border-gray-800 text-center text-sm text-gray-400">
-            <p>© {new Date().getFullYear()} Songu Jacob Aondofe. All rights reserved.</p>
+            <p>© {new Date().getFullYear()} Jack Songu. All rights reserved.</p>
           </div>
         </div>
       </footer>
